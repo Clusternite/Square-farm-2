@@ -152,13 +152,14 @@ section {
   justify-content: center;
   align-items: center;
 
-  margin: 2rem;
-
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  
   img {
     border-radius: 25px;
+    object-fit: cover;
   }
 }
-
 
 @media (max-width: 768px) {
   .rowImages {
@@ -166,6 +167,7 @@ section {
 
     img {
       width: 100%;
+      height: 100%;
     }
   }
 }
@@ -176,16 +178,18 @@ section {
 
     img {
       width: 300px;
+      height: 200px;
     }
   }
 }
 
 @media (min-width: 992px) {
   .rowImages {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 0fr);
 
     img {
       width: 400px;
+      height: 250px;
     }
   }
 }
@@ -193,14 +197,13 @@ section {
 @media (min-width: 1400px) {
   .rowImages {
     grid-template-columns: repeat(3, 1fr);
-
     img {
       width: 380px;
+      height: 200px;
+      
     }
   }
 }
-
-
 
 /*--------------------------------------------------------------
 # Back to top button
