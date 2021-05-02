@@ -147,7 +147,18 @@ section {
 --------------------------------------------------------------*/
 
 .rowImages {
-  
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+  justify-content: center;
+  align-items: center;
+
+  margin: 2rem;
+
+  img {
+    border-radius: 25px;
+    width: 30rem;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -828,9 +839,3 @@ section {
   color: $secondColor;
 }
 
-.footer .credits {
-  padding-top: 10px;
-  text-align: center;
-  font-size: 13px;
-  color: $secondColor;
-}
