@@ -618,32 +618,32 @@ section {
 # Index Page
 --------------------------------------------------------------*/
 /*--------------------------------------------------------------
-# About
+# infoSection
 --------------------------------------------------------------*/
-.about .content {
+.infoSection .content {
   background-color: #f6f9ff;
   padding: 40px;
 }
 
-.about h3 {
+.infoSection h3 {
   font-size: 14px;
   font-weight: 700;
   color: #1fbb00;
   text-transform: uppercase;
 }
 
-.about h2 {
+.infoSection h2 {
   font-size: 24px;
   font-weight: 700;
   color: #0b5f00;
 }
 
-.about p {
+.infoSection p {
   margin: 15px 0 30px 0;
   line-height: 24px;
 }
 
-.about .btn-read-more {
+.infoSection .btn-read-more {
   line-height: 0;
   padding: 15px 40px;
   border-radius: 4px;
@@ -655,23 +655,36 @@ section {
           box-shadow: 0px 5px 25px rgba(65, 84, 241, 0.3);
 }
 
-.about .btn-read-more span {
+.infoSection .btn-read-more span {
   font-family: "Nunito", sans-serif;
   font-weight: 600;
   font-size: 16px;
   letter-spacing: 1px;
 }
 
-.about .btn-read-more i {
+.infoSection .btn-read-more i {
   margin-left: 5px;
   font-size: 18px;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
-.about .btn-read-more:hover i {
+.infoSection .btn-read-more:hover i {
   -webkit-transform: translateX(5px);
           transform: translateX(5px);
+}
+
+/*--------------------------------------------------------------
+# Basisfiche
+--------------------------------------------------------------*/
+#basisfiche .basisTable {
+  border: solid #0b5f00 3px;
+  margin: 1rem;
+}
+
+#basisfiche .basisTable td {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
 }
 
 /*--------------------------------------------------------------

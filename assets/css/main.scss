@@ -154,7 +154,7 @@ section {
 
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
-  
+
   img {
     border-radius: 25px;
     object-fit: cover;
@@ -200,7 +200,6 @@ section {
     img {
       width: 380px;
       height: 200px;
-      
     }
   }
 }
@@ -605,32 +604,32 @@ section {
 # Index Page
 --------------------------------------------------------------*/
 /*--------------------------------------------------------------
-# About
+# infoSection
 --------------------------------------------------------------*/
-.about .content {
+.infoSection .content {
   background-color: #f6f9ff;
   padding: 40px;
 }
 
-.about h3 {
+.infoSection h3 {
   font-size: 14px;
   font-weight: 700;
   color: $primaryColor;
   text-transform: uppercase;
 }
 
-.about h2 {
+.infoSection h2 {
   font-size: 24px;
   font-weight: 700;
   color: $secondColor;
 }
 
-.about p {
+.infoSection p {
   margin: 15px 0 30px 0;
   line-height: 24px;
 }
 
-.about .btn-read-more {
+.infoSection .btn-read-more {
   line-height: 0;
   padding: 15px 40px;
   border-radius: 4px;
@@ -640,21 +639,35 @@ section {
   box-shadow: 0px 5px 25px rgba(65, 84, 241, 0.3);
 }
 
-.about .btn-read-more span {
+.infoSection .btn-read-more span {
   font-family: "Nunito", sans-serif;
   font-weight: 600;
   font-size: 16px;
   letter-spacing: 1px;
 }
 
-.about .btn-read-more i {
+.infoSection .btn-read-more i {
   margin-left: 5px;
   font-size: 18px;
   transition: 0.3s;
 }
 
-.about .btn-read-more:hover i {
+.infoSection .btn-read-more:hover i {
   transform: translateX(5px);
+}
+
+/*--------------------------------------------------------------
+# Basisfiche
+--------------------------------------------------------------*/
+#basisfiche {
+  .basisTable {
+    border: solid $secondColor 3px;
+    margin: 1rem;
+    td {
+      padding-left: 1.25rem;
+      padding-right: 1.25rem;
+    }
+  }
 }
 
 /*--------------------------------------------------------------
